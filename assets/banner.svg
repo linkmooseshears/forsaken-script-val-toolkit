@@ -1,0 +1,44 @@
+<svg viewBox="0 0 1200 360" width="1200" height="360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="50%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#3b4a63" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="360" fill="url(#bgGrad)"/>
+  <rect x="0" y="0" width="1200" height="360" fill="url(#glow)"/>
+
+  <!-- Decorative low-opacity shapes -->
+  <g opacity="0.12" stroke="#8b949e" fill="none">
+    <line x1="60" y1="40" x2="60" y2="320"/>
+    <line x1="1140" y1="40" x2="1140" y2="320"/>
+    <path d="M100,50 L140,50 L140,90"/>
+    <path d="M1100,310 L1060,310 L1060,270"/>
+  </g>
+
+  <g opacity="0.08" fill="none" stroke="#58a6ff">
+    <circle cx="150" cy="80" r="60"/>
+    <circle cx="1050" cy="290" r="80"/>
+    <circle cx="1000" cy="60" r="40"/>
+  </g>
+
+  <g opacity="0.06">
+    <polyline points="80,300 200,260 320,280 440,240 560,270" fill="none" stroke="#c9d1d9" stroke-width="1.5"/>
+    <polyline points="700,90 820,120 940,95 1060,130" fill="none" stroke="#c9d1d9" stroke-width="1.5"/>
+  </g>
+
+  <text x="600" y="175" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="64.0" fill="#ffffff" font-weight="600">
+    Forsaken Script
+  </text>
+
+  <text x="600" y="235" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="22.0" fill="#c9d1d9">
+    <tspan x="600" dy="0">Small Windows tool for Forsaken Script users —</tspan>
+    <tspan x="600" dy="32">validates script syntax before you run it.</tspan>
+  </text>
+</svg>
